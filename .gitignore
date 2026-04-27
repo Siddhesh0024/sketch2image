@@ -1,0 +1,30 @@
+# Dataset
+data/raw/
+data/processed/
+*.tar.gz
+*.zip
+
+# Training outputs
+checkpoints/
+samples/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+runs/
+wandb/
